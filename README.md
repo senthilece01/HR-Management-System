@@ -1,26 +1,18 @@
-# Leave Management Portal 
-A full-stack **Leave Management Portal** where employees can request leaves, managers can approve/reject them, and admins can configure policies, manage teams, and view all leave-related data. This portal streamlines internal HR processes for efficient leave tracking and approval.
+# HR Management System
+A full-stack **HR Management Portal** where employees can request leaves, managers can approve/reject them, and admins can configure policies, manage teams, and view all leave-related data. This portal streamlines internal HR processes for efficient leave tracking and approval.
 
+<img  width="1080" height="492"  alt="Screenshot 2025-08-12 at 12 05 39 PM" src="https://github.com/user-attachments/assets/018e7044-4c08-4df8-a371-b146e9cec4c0" />
 
-<img width="1080" height="492" alt="Screenshot 2025-07-27 at 2 12 19 AM" src="https://github.com/user-attachments/assets/4ddc83f4-94cd-4a1d-8639-83a8461c9c66" />
+<img width="1080" height="492"  alt="Screenshot 2025-08-12 at 12 06 23 PM" src="https://github.com/user-attachments/assets/ec4a7e88-c6cf-4ef7-8970-f73000f5caed" />
 
----
-
-##  Problem Statement
-
-Leave management is often a manual and error-prone process in many organizations. Employees face delays, managers lack clarity, and admins struggle with policy enforcement and visibility. This portal solves that by offering:
-
-- A centralized system for handling leave requests
-- Role-based workflows for employees, managers, and admins
-- Admin configuration for leave policies and holidays
-- Transparency and tracking of leave usage
+<img width="1080" height="492" alt="Screenshot 2025-08-12 at 12 08 24 PM" src="https://github.com/user-attachments/assets/527f4fe6-a78d-4e18-945f-4c0cfe851b24" />
 
 ---
 
 ## Roles & Features
 
 ### 👨‍💼 Employee
-- Apply for leave by choosing date range and reason
+- Apply for leave by choosing a date range and reason
 - View their own leave history and leave balance
 - Track leave status (pending/approved/rejected)
 
@@ -52,25 +44,6 @@ All `shadcn/ui` components are pre-installed under `@/components/ui`.
 
 ---
 
-## 📁 File Structure
-
-```
-├── index.html
-├── vite.config.ts
-├── tailwind.config.js
-├── package.json
-└── src
-    ├── app.tsx
-    ├── main.tsx
-    ├── index.css
-    └── components
-        └── ui         
-```
-
-> 📌 The `@/` path alias points to the `src/` directory
-
----
-
 ## 🔍 Navigation Guide
 
 | Path                   | Description                                      | Access Role       |
@@ -87,40 +60,6 @@ All `shadcn/ui` components are pre-installed under `@/components/ui`.
 
 ---
 
-## ⚙️ Project Setup
-
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/karthiksriramoju/leave-management-portal.git
-cd leave-management-portal
-```
-
-2. **Install Dependencies**
-
-```bash
-pnpm install
-```
-
-> Ensure you have `pnpm` installed. If not:
-
-```bash
-npm install -g pnpm
-```
-
-3. **Run the Development Server**
-
-```bash
-pnpm run dev
-```
-
-4. **Build for Production**
-
-```bash
-pnpm run build
-```
-
----
 ## 🔐 Demo Credentials (for testing)
 
 Use the following credentials to test different roles in the app:
@@ -132,33 +71,4 @@ Use the following credentials to test different roles in the app:
 | Admin    | admin@gmail.com      | `password123` |
 
 ---
-
-## 🎨 Styling & UI
-
-- Built using `shadcn/ui` components under `@/components/ui`
-- Global styling via `src/index.css`
-- Customization possible through `tailwind.config.js`
-
----
-
-## 🧾 Commands Summary
-
-| Action                | Command             |
-|----------------------|---------------------|
-| Install Dependencies | `pnpm i`            |
-| Start Development    | `pnpm run dev`      |
-| Build Project        | `pnpm run build`    |
-
----
-
-## 🙌 Contributors
-
-### 👨‍💻 Team Lead
-- **Karthik Sriramoju** – Full-stack Developer, Project Lead
-
-### 👥 Teammates
-- **Maithri** – Contributed to UI and feature design  
-- **Rohini** – Helped with backend logic and leave workflows  
-- **Medhilesh** – Worked on authentication and integration  
-- **Sahasra** – Contributed to testing and UI refinement
   
